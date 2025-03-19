@@ -8,7 +8,7 @@ function mostrar(){
     var inSexof = inSexoF.checked;
     var nome = inName.value;
 
-    if(nomeome = "" || (inSexom == false && inSexof == false)){
+    if(nome = "" || (inSexom == false && inSexof == false)){
         alert("Digite o seu nome e preenchao sexo");
         inName.focus()
         return;

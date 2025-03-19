@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var bairro = prompt("Qual o bairro");
+        var txEntrega;
+        switch (bairro){
+            case "Vereda":
+                txEntrega = 5;
+                break;
+            case "Centro":
+                txEntrega = 2;
+                break;
+            case "Vila":
+                txEntrega = 10;
+                break;
+            default:
+                txEntrega = 12
+        }
+
+        alert("Txa de entrega é: " + txEntrega)
+    </script>
+</body>
+</html>
