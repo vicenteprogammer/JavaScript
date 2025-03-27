@@ -12,10 +12,10 @@ function previsao(){
 
     if(chi < 2 || isNaN(anos)){
         alert("Tem que ser um casal...")
+        if(anos <= 0){
         inChi.focus;
         return;
     }
-    if(anos <= 0){
         alert("Digite uma quantidade válida");
     }
     
